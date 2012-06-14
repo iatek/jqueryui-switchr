@@ -14,7 +14,7 @@ $.widget( "ia.switchr" , {
     // setup widget
     _create: function () {
 
-        var base = this;
+        
         var self = this.element;
         var o = this.options;
         var themeName = 'switchr-' + o.theme;
