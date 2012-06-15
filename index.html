@@ -2,25 +2,29 @@
 <html lang="en"><head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
-    <title>jQueryUI Toggle Switch Widget - iOS, mobile style switch button</title>
+    <title>jQueryUI Toggle Switch Widget - A iOS, mobile style switch button</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A css and jquery mobile style toggle switch plugin for jQuery UI - No images needed.">
+    <meta name="description" content="A css and jQuery mobile style toggle switch plugin for jQuery UI - No images needed.">
 	<meta name="keywords" content="jquery, toggle, switch, button, plugin">
     <meta name="author" content="Iatek">
 	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.13/jquery-ui.min.js" type="text/javascript"></script>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
 	<script src='jqueryui-switchr.js'></script>
 	<link rel="stylesheet" href="jqueryui-switchr.css" type="text/css" />
-    
+    <script>
+    $(document).ready(function() {
+        $("[type=checkbox]").switchr();
+    });
+    </script>
 </head>
 <body>
 
 <div class='container'>    
     <form>
-       <input type="checkbox" id="facebook" checked value='fb'/> Label
-       <input type="checkbox" id="twitter" value='tw'/> Label
-       <input type="checkbox" id="tumblr" checked value='tm'/> Label
-       <input type="checkbox" id="linkedin" checked value='in'/> Label
+       <input type="checkbox" id="chk1" checked value='fb'/> Label
+       <input type="checkbox" id="chk1" value='tw'/> Label
+       <input type="checkbox" id="chk1" checked value='tm'/> Label
+       <input type="checkbox" id="chk1" checked value='in'/> Label
        <hr>
        <input type="checkbox" id="sm" value='sm'/> small<br/>
         <hr>
