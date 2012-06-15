@@ -1,14 +1,15 @@
 jqueryui-switchr
 ================
 
-jQueryUI Toggle Switch Plugin
+Yet another jQueryUI Toggle Switch Widget because I didn't find one that I liked. This one doesn't use any images and pure CSS for styling.
+This one also supports a 'disabled' mode, and custom text as an alternate to ON/OFF.
 
-examples
+Examples
 ========
 http://jsfiddle.net/skelly/jH6UH/
 
 
-usage
+Usage
 =====
 jQuery and jQueryUI libraries are required.
 
@@ -22,13 +23,17 @@ jQuery and jQueryUI libraries are required.
 
   $("#myChkbox").switchr();
 
-options
+Options
 =======
+  onText:'yes' (default=ON)
+  
+  offText:'no' (default=OFF)
+
   theme: none|'med'|'large' (default=none, the small switch)
   
   hideCheckbox: true|false (default=true)
 
-examples with options
+Examples with options
 =====================
   $("#myChkbox").switchr({theme:'med'});
   
