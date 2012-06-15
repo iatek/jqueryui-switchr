@@ -25,8 +25,12 @@ jQuery and jQueryUI libraries are required.
 options
 =======
   theme: none|'med'|'large' (default=none, the small switch)
+  
   hideCheckbox: true|false (default=true)
 
+examples with options
+=====================
   $("#myChkbox").switchr({theme:'med'});
+  
   $("#myChkbox").switchr({hideCheckbox:false});
   
