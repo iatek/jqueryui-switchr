@@ -12,8 +12,8 @@ usage
 =====
 Reference the .js and .css files:
 
-<script src='jqueryui-switchr.js'></script>
-<link rel="stylesheet" href="jqueryui-switchr.css" type="text/css" />
+&lt;script src='jqueryui-switchr.js'&gt;&lt;/script&gt;
+&lt;link rel="stylesheet" href="jqueryui-switchr.css" type="text/css" /&gt;
 
 Activate .switchr on your checkbox input:
 
